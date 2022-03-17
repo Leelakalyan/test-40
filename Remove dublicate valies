@@ -1,0 +1,16 @@
+l=input().split()
+x=[]
+for i in l:
+    x.append(int(i))
+print(x)
+res=[]
+for i in x:
+    if i not in res:
+        res.append(i)
+for i in res:
+    print(i,end=' ')
+    
+Output:
+1 3 4 1 6 2 3 1
+[1, 3, 4, 1, 6, 2, 3, 1]
+1 3 4 6 2
